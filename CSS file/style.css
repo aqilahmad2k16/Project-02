@@ -1,0 +1,50 @@
+#firstbutton {
+    margin: auto;
+    width: 180px;
+    height: 50px;
+    font-style:oblique;
+    background-color:aqua;
+    border-radius:10px;
+    cursor : pointer;
+    font-size: 25px;
+    
+}
+#firstbutton:hover {
+    transform: scale(1.02);
+}
+
+#container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display:flex;
+}
+
+.folder {
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right:5px;
+    
+    height: 100px;
+    width: 100px;
+}
+
+.folder [action]{
+    text-decoration: underline;
+    margin : 6px;
+    cursor: pointer;
+    color: rgb(87, 85, 85);
+    
+
+}
+
+.folder [purpose] {
+    margin-left : 6px;
+    margin-top: 60px;
+    color: purple;
+    cursor: pointer;
+}
